@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/icon",
+      "Name": "Music Status",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "显示当前媒体信息，按下发送播放控制热键",
+      "UUID": "sd-smtc.pluginaction",
+      "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+    }
+  ],
+  "Author": "Drinbol",
+  "Name": "STMC For Streamdeck",
+  "Description": "在 StreamDeck 按键上显示当前媒体播放信息（标题/封面），按键控制播放",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://drinbol.com",
+  "Version": "1.0",
+  "CodePath": "com.drinbol.smtc",
+  "Category": "Drinbol",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.9"
+  }
+}

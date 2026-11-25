@@ -1,0 +1,15 @@
+# 构建产物
+bin/
+obj/
+out/
+MigrationBackup/
+.vs/
+*.user
+
+# 依赖
+packages/
+
+# Env & IDE
+.idea/
+.vscode/
+*:Zone.Identifier
